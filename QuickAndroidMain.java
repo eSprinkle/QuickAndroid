@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
 *	QuickAndroidMain
 *	@organisation: eSprinkle
-* 	@version: 1.0.1
+* 	@version: 1.0.2
 **/
 
 public class QuickAndroidMain {
