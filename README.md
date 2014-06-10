@@ -3,8 +3,9 @@ QuickAndroid
 
 Generates Java source for activity declarations in the XML layout.
 
-For example:
-An Android activity XML may contain following view:
+Sample
+============
+An Android activity XML would contain following view decelaration:
 
     <EditText
         android:id="@+id/userUnique"
@@ -37,7 +38,33 @@ In order to map the layout with the Java source we would be writing following co
 		};
 		loginOk.setOnClickListener(loginOkListener);
 		
-The use this project is to generate the above source.
+This project aimed to generate the mapping source of xml.
+
+Usage
+===========
+1. Copy all the compiled sources in your android project root folder
+2. Verify the Views in "ViewList.txt" add few tags which are required for your project.
+3. Specify eSprinkle tags as below in your xml file inside the comments as below:
+	<?xml version="1.0" encoding="utf-8"?>
+		<!-- eSprinkle-quickAndroid:package=[com.esprinkle.apps.android.auth] -->
+		<!-- eSprinkle-quickAndroid:class=[LoginActivity] -->
+		<!-- eSprinkle-quickAndroid:is_new=[true] -->
+4. After eSprinkle tags you create your layout as usual.
+5. Run the sources "QuickAndroidMain" and provide the xml file name. 
+
+
+Documentation
+===========
+eSprinkle-quickAndroid:package => denotes under which package the class should be placed (exclude this tag for default package)
+eSprinkle-quickAndroid:class   => denotes the class name
+eSprinkle-quickAndroid:is_new  => it is mandatory tag and for now it should be set as true, We are building the next version in which 'false' in this tag denotes a class is already created and need to create mappings only for the missing.
+eSprinkle-quickAndroid:sync_enabled  => As soon as you save your changes in xml file, the mappings will be reflected in java file, (currently not available)
+
+Future
+===========
+1. Able to map the view for existing classes.
+2. Realtime sync with layout file.
+3. Would be available as an eclipse plugin
 
 ===========
 eSprinkle Open Source
