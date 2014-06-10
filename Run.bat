@@ -1,2 +1,2 @@
-javac QuickAndroidMain.java
+javac *.java
 java QuickAndroidMain
