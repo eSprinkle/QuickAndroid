@@ -43,8 +43,8 @@ This project aimed to generate the mapping source of xml.
 
 Usage
 ===========
-1. Copy all the compiled sources in your android project root folder
-2. Verify the Views in "ViewList.txt" and add few tags which are required for your project.
+1. Unzip the QuickAndroid folder into your android project root folder
+2. Verify the Views in "ViewList.txt" file and add few tags which are required for your project.
 3. Specify eSprinkle tags as below in your xml file inside the comments as below:
 	
 	"<?xml version="1.0" encoding="utf-8"?>"
@@ -56,7 +56,8 @@ Usage
 	"<!-- eSprinkle-quickAndroid:is_new=[true] -->"
 
 4. There tags can be anywhere inside the layout file but they should exists.
-5. Run the sources "QuickAndroidMain" and provide the xml file name. 
+5. Run the sources "QuickAndroidMain" by opening "Run" batch file and provide the xml file name. 
+6. Your activity class will be generated for the respective xml file
 
 
 Documentation
