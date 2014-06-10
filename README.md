@@ -1,4 +1,4 @@
-eSprinkle QuickAndroid - Boost your android development with "Quick Android".
+QuickAndroid - Boost your android development.
 ============
 
 Generates Java source for activity declarations in the XML layout.
