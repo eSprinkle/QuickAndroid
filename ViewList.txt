@@ -1,0 +1,3 @@
+Button
+EditText
+TextView
