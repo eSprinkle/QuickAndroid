@@ -9,7 +9,7 @@ import java.util.List;
 
 
 /**
-*	CreateClass is used to create a new java file and embeds with view mappings embeded in it
+*	CreateClass is used to create a new java file with view mappings embeded in it
 *	@organisation: eSprinkle
 * 	@version: 1.0.0
 **/
