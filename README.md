@@ -47,10 +47,13 @@ Usage
 2. Verify the Views in "ViewList.txt" and add few tags which are required for your project.
 3. Specify eSprinkle tags as below in your xml file inside the comments as below:
 	
-	<?xml version="1.0" encoding="utf-8"?>
-	<!-- eSprinkle-quickAndroid:package=[com.esprinkle.apps.android.auth] -->
-	<!-- eSprinkle-quickAndroid:class=[LoginActivity] -->
-	<!-- eSprinkle-quickAndroid:is_new=[true] -->
+	"<?xml version="1.0" encoding="utf-8"?>"
+	
+	"<!-- eSprinkle-quickAndroid:package=[com.esprinkle.apps.android.auth] -->"
+	
+	"<!-- eSprinkle-quickAndroid:class=[LoginActivity] -->"
+	
+	"<!-- eSprinkle-quickAndroid:is_new=[true] -->"
 
 4. There tags can be anywhere inside the layout file but they should exists.
 5. Run the sources "QuickAndroidMain" and provide the xml file name. 
