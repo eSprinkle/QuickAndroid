@@ -1,6 +1,8 @@
 QuickAndroid - Boost your android development.
 ============
 
+ ![alt tag](quickAndroid_img.jpg)
+
 Generates Java source for activity declarations in the XML layout.
 
 
